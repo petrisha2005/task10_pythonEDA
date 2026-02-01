@@ -1,0 +1,24 @@
+EDA FINDINGS – TASK 10
+
+1. Dataset Overview
+The dataset contains ____ rows and ____ columns.
+Both numerical and categorical variables are present.
+
+2. Missing Value Analysis
+Some columns contain missing values, which were identified using percentage calculation.
+Columns with very high missing values were noted for further handling.
+
+3. Distribution Analysis
+Histograms showed that some numerical variables are skewed.
+Boxplots revealed the presence of outliers in certain columns.
+
+4. Outlier Detection
+Outliers were detected using the IQR (Interquartile Range) method.
+Values outside 1.5 × IQR were considered as outliers.
+
+5. Outlier Treatment
+Outliers were handled using capping to avoid data loss and reduce skewness.
+
+6. Correlation Analysis
+Correlation was performed only on numerical features.
+Strong positive and weak correlations were observed among some variables.
